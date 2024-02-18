@@ -52,6 +52,28 @@ body{
 .navbar a:hover, .navbar a.active{
     color: #00abf0;
 }
+.portfolio{
+    background: url('home.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+.project1{
+    position: relative;
+    top: 20%;
+}
+.image-box{
+    width: 20%;
+    padding: 3px;
+    text-align: center;
+    border: 2px solid #ededed;
+    box-shadow: 0 2px 4px #ededed;
+}
+.image-box img{
+    width: 100%;
+    height: auto;
+}
 /* HOME PAGE */
 .home{
     background: url('home.jpg') no-repeat;
